@@ -9,8 +9,6 @@ const authRouter = require("./routes/api/auth");
 
 const app = express();
 
-const a = structuredClone(logger);
-
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
 app.use(logger(formatsLogger));
