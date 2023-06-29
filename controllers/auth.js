@@ -95,5 +95,7 @@ module.exports = {
 	logout: ctrlWrapper(logout),
 	current: ctrlWrapper(current),
 	update: ctrlWrapper(update),
+	verify: ctrlWrapper(verify),
+	resendVerifyEmail: ctrlWrapper(resendVerifyEmail),
 	updateAvatar: ctrlWrapper(updateAvatar),
 };
